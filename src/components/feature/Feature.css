@@ -1,0 +1,47 @@
+.feature{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featureItem{
+    background-color: #ffffff;
+    padding: 10px;
+    flex: 1;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.featureAmount{
+    font-size: 30px;
+}
+
+.featureTitle{
+    color:#868EAE;
+}
+
+.featureSub{
+font-size: 13px;
+}
+
+.featurePercent{
+    font-size: 14px;
+    color: #20C997;
+}
+
+.featureIcon.negative{
+    color: red;
+}
+
+.featureIcon{
+    height:10px;
+    width: 10px;
+    font-size: 1rem;
+    color: #20C997;
+    overflow:hidden
+}
+
+.featureComment{
+    display: flex;
+    margin: -10px;
+}

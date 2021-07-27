@@ -1,0 +1,52 @@
+.sidebar{
+  position: sticky;
+  top: 60px;
+  overflow-y: scroll;
+}
+
+.sidebarWrapper {
+  color: #272b41;
+
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+.mainManu{
+    margin-bottom: 20px;
+}
+.title {
+  color: #9299b8;
+}
+
+.sidebarList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebarListItem {
+  padding: 5px 15px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 100%;
+}
+
+.manuItemIcon {
+  font-size: 5px;
+  padding-right: 10px;
+}
+
+.sidebarLeft {
+  display: flex;
+  align-items: center;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  color: #5f63f2;
+  background-color: #eff0f3;
+}

@@ -1,0 +1,31 @@
+
+.dashboard{
+    background-color: #F4F5F7;
+}
+
+.dashboardHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.DateRangePicker , .headerItem{
+    background-color: #ffffff;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px ;
+    margin: 0 10px ;
+}
+
+.HeaderContent{
+    display: flex;
+
+}
+
+.headerIcon{
+    margin-right: 3px;
+}
+
+.revenue{
+    display: flex;
+}

@@ -1,0 +1,17 @@
+.revenueChart{
+    margin: 20px 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.charTitle {
+  padding: 0 20px ;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.chartHeader {
+  display: flex;
+  justify-content: space-between;
+}

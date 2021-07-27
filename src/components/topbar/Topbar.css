@@ -1,0 +1,40 @@
+.topbar{
+    position: sticky;
+    top: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rightIconContainer{
+    display: flex;
+}
+.icon{
+    padding:10px;
+    margin: 2px;
+}
+
+.leftIconContainer{
+    display: flex;
+    align-items: center;
+}
+
+/* .leftIcon{
+    margin: 2px 10px ;
+} */
+
+.TopDot{
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        display: inline-block;
+      
+}
+
+.mail{
+    background-color:#20c997;
+}
+.notifications{
+    background-color: #fa8b0c;
+}

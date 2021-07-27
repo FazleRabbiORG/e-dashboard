@@ -1,0 +1,22 @@
+.borderLess td, .borderLess th {
+    border: none;
+}
+
+.deviceDot{
+        height: 10px;
+        width : 10px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 10px; 
+}
+
+.desktop{
+    background-color : #20C997;
+}
+
+.mobile{
+    background-color: #5F63F2;
+}
+.tablets{
+    background-color: #FA8B0C;
+}
